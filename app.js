@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const main = require('./routers/main.js')
+const main = require('./routers/main')
 
 app.use(express.static('public'));
 
